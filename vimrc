@@ -115,7 +115,11 @@ let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standar
 let g:ctrlp_working_path_mode = 'ra'
 
 
+" --- NERDTree
+let g:NERDTreeWinSize = 40
+
 "---------------------------------------------------------------------------
 " CUSTOM KEYBINDINGS / EX COMMANDS
 "---------------------------------------------------------------------------
-cabbrev E Explore     "E command should map to Explore"
+cabbrev E Explore          "E command should map to Explore
+cabbrev NE NERDTreeToggle  "NE will toggle NERDTree sidebar
